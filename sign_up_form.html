@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="sign_up_form.css">
+    <title>Sign for Courses </title>
+</head>
+<body>
+    <h1>Sign for Courses</h1>
+    <form action="send_email.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br>
+
+        <label for="education">Education Level:</label>
+        <input type="text" id="education" name="education" required><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+
+        <label for="course">Course Type:</label>
+        <select id="course" name="course" required>
+            <option value="All courses">All courses</option>
+            <option value="Quranic studies">Quranic studies</option>
+            <option value="Hadith Sciences">Hadith Sciences</option>
+            <option value="Islamic doctrines">Islamic doctrines</option>
+        </select><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

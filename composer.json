@@ -1,0 +1,15 @@
+{
+    "name": "alfaja/v1",
+    "description": "Islamic website to teach Quran, Hadith and Faqh",
+    "type": "website",
+    "license": "from Dragon pythonist",
+    "authors": [
+        {
+            "name": "Dragon"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+    
+}
